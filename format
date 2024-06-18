@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-(cd build && cmake .. && make)
+ls *.cpp | xargs clang-format --style=Chromium
+
